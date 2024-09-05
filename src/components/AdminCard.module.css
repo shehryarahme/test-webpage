@@ -1,0 +1,415 @@
+.h1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.wrapper {
+  width: 39.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.7px 0 0;
+  box-sizing: border-box;
+}
+.medical {
+  text-decoration: none;
+  position: relative;
+  font-size: 25px;
+  line-height: 43px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: inherit;
+  display: inline-block;
+  min-width: 100px;
+}
+.button {
+  width: 210px;
+  background-color: #6673fc;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 24px 8px;
+  box-sizing: border-box;
+  gap: 15.2px;
+}
+.cardIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 9.9px;
+}
+.search {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 58.1px;
+}
+.searchLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 0 0;
+}
+.div,
+.textInput {
+  align-self: stretch;
+  display: flex;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.textInput {
+  width: 44px;
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 16px 11.1px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  color: #1e2629;
+  font-family: Inter;
+}
+.searchInput,
+.textInputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.textInputContainer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  border: 1px solid #fff;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1px 2px 1.9px 12px;
+}
+.searchInput {
+  height: 41px;
+  width: 240px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.imageIcon {
+  width: 16px;
+  height: 11px;
+  position: relative;
+  object-fit: cover;
+}
+.englishContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 3.4px;
+}
+.english {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 53.7px;
+}
+.languageDropdown,
+.languageDropdownContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+}
+.languageDropdown {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px 2px 0 0;
+}
+.verticalContainerIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -12.1px;
+  left: -11px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notificationBadge {
+  text-decoration: none;
+  position: relative;
+  line-height: 11px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 8px;
+}
+.verticalContainer {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  background-color: #ff7400;
+  flex-direction: row;
+  padding: 0 5px 7px 6px;
+  z-index: 1;
+}
+.notificationBell,
+.notificationContainer,
+.verticalContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notificationBell {
+  flex-direction: row;
+  position: relative;
+}
+.notificationContainer {
+  width: 22.7px;
+  flex-direction: column;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+}
+.containerIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -12.1px;
+  left: -11.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.messageBadge {
+  text-decoration: none;
+  position: relative;
+  line-height: 11px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 7px;
+}
+.messageContainer,
+.verticalContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.verticalContainer1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  background-color: #6677ef;
+  padding: 0 5px 7px 6px;
+  z-index: 1;
+}
+.messageContainer {
+  position: relative;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+}
+.imageIcon1 {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  border-radius: 14.5px;
+  object-fit: cover;
+}
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.kiran {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 37px;
+}
+.profileName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.moreVert {
+  text-decoration: none;
+  width: 24.2px;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.container {
+  flex: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 4px 3px 4px 4px;
+  text-align: center;
+  font-size: 24px;
+  color: #555;
+  font-family: "Material Icons";
+}
+.container,
+.profileContainer,
+.profileDropdown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileDropdown {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 5.8px;
+}
+.profileContainer {
+  width: 109.5px;
+  flex-direction: column;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.languageSelector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.languageContainer {
+  width: 295px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  color: #000;
+}
+.languageContainer,
+.searchBar,
+.searchContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.searchBar {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.searchContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 9px;
+  box-sizing: border-box;
+  min-width: 1079px;
+  max-width: 100%;
+  font-size: 14px;
+  color: silver;
+  font-family: Poppins;
+}
+.adminCard,
+.horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.horizontalContainer {
+  flex: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  align-items: flex-end;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  gap: 15px;
+  z-index: 2;
+  text-align: left;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Alike Angular";
+}
+.adminCard {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1525px) {
+  .horizontalContainer {
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .searchContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .searchBar {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .medical {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .moreVert {
+    font-size: 19px;
+    line-height: 19px;
+  }
+}

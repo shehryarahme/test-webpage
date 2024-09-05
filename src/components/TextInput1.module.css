@@ -1,0 +1,119 @@
+.dashboard {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 41px;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+}
+.dashboardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-width: 16px;
+}
+.wrapper {
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 42px;
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  text-align: left;
+  color: #888;
+  font-family: Poppins;
+}
+.div1 {
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-width: 7px;
+}
+.container {
+  width: 10.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 3px 0 0;
+  box-sizing: border-box;
+}
+.dashboard1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 79px;
+}
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Poppins;
+}
+.button,
+.textInput {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-radius: 50px;
+  background-color: rgba(220, 208, 208, 0.3);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 14px 13px 19px;
+  gap: 5.4px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  font-family: "Alike Angular";
+}
+.textInput {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #eaeef3;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 20px 6.8px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #666;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .dashboard {
+    font-size: 19px;
+    line-height: 33px;
+  }
+}

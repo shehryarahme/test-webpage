@@ -1,0 +1,101 @@
+.cardsLayout,
+.tableCardLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tableCardLayout {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 11px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.cardsLayout {
+  flex: 1;
+  align-items: flex-end;
+  gap: 10px;
+}
+.cardsLayoutWrapper {
+  width: 1674px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 9px;
+  box-sizing: border-box;
+}
+.cardsLayoutWrapper,
+.tableContainer,
+.tableContainer1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.tableContainer1 {
+  width: 1685px;
+  background-color: #eaeef3;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 75px 0 30px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.tableContainer {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+.redstartheme {
+  font-weight: 500;
+  color: #337ab7;
+}
+.redstarHospitalTemplateContainer {
+  position: relative;
+  line-height: 19px;
+}
+.medicalDashboard,
+.textInput {
+  display: flex;
+  align-items: flex-start;
+}
+.textInput {
+  align-self: stretch;
+  background-color: #222c3c;
+  flex-direction: row;
+  justify-content: center;
+  padding: 21px 20px 22.1px;
+  text-align: center;
+  font-size: 13px;
+  color: #98a6ba;
+  font-family: Poppins;
+}
+.medicalDashboard {
+  width: 100%;
+  position: relative;
+  background-color: #eef1f5;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .tableContainer1 {
+    padding-top: 49px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .tableContainer1 {
+    padding-top: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tableContainer1 {
+    padding-top: 21px;
+    box-sizing: border-box;
+  }
+}

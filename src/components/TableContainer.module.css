@@ -1,0 +1,667 @@
+.admitPatientList {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 17px;
+  font-weight: 600;
+}
+.div {
+  width: 10px;
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+}
+.patientTableSearchIcon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+}
+.div1,
+.div2 {
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+  min-width: 11px;
+  flex-shrink: 0;
+}
+.div2 {
+  min-width: 10px;
+}
+.patientTableIcons,
+.textInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.patientTableIcons {
+  width: 44.2px;
+  justify-content: flex-start;
+  gap: 5.3px;
+  font-size: 12px;
+  color: #97a0b3;
+  font-family: "Alike Angular";
+}
+.textInput {
+  align-self: stretch;
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 13.6px 19px 13px 22px;
+  gap: 20px;
+}
+.no {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 20px;
+}
+.textInput1 {
+  width: 82.9px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+}
+.name {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 44px;
+}
+.textInput2 {
+  width: 293.3px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+}
+.assignedDoctor {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 117px;
+}
+.textInput3 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+  min-width: 117px;
+  z-index: 1;
+}
+.dateOfAdmit {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 100px;
+}
+.textInput4 {
+  width: 272.2px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+}
+.diseases {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 64px;
+}
+.textInput5 {
+  width: 251.4px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+}
+.roomNo {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 65px;
+}
+.textInput6 {
+  width: 188.5px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 8px 10px;
+}
+.edit {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 27px;
+}
+.horizontalContainer,
+.textInput7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textInput7 {
+  width: 194px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  padding: 9px 8px 10px;
+}
+.horizontalContainer {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: 20px;
+}
+.patientIdValue {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 5px;
+}
+.slider {
+  width: 82.9px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+}
+.jensBrincker {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 99px;
+}
+.textInput8 {
+  width: 293.3px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+}
+.drkennyJosh {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 105px;
+}
+.textInput9 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 105px;
+  z-index: 1;
+}
+.patientDateValue {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 83px;
+}
+.textInput10 {
+  width: 272.2px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+}
+.influenza {
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 53px;
+}
+.button {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 2.5px;
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 5px 8px 6px;
+}
+.patientRoomValue {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 20px;
+}
+.textInput12 {
+  width: 188.5px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+}
+.div3 {
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+  min-width: 12px;
+}
+.switch {
+  border-radius: 5px;
+  background-color: rgba(0, 255, 10, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.div4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+}
+.container,
+.switch1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.switch1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 5px;
+  background-color: rgba(255, 68, 0, 0.2);
+  padding: 8px 10px 8px 6px;
+  color: #fa6c39;
+}
+.container {
+  height: 49px;
+  width: 194px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  padding: 10.5px 121px 10.5px 10px;
+  gap: 7.9px;
+  font-size: 12px;
+  color: #4caf50;
+  font-family: "Alike Angular";
+}
+.div5,
+.drMark,
+.markHay {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 9px;
+}
+.drMark,
+.markHay {
+  min-width: 70px;
+}
+.drMark {
+  min-width: 60px;
+}
+.textInput15 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 60px;
+  z-index: 1;
+}
+.cholera {
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 47px;
+}
+.button1,
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 2.5px;
+  background: linear-gradient(45deg, #ffb64d, #ffcb80);
+  padding: 9px 5px 8px 6px;
+}
+.buttonContainer {
+  width: 251.4px;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  padding: 12.8px 8px 8px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.anthonyDavie,
+.div7,
+.drcinnabar {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 24px;
+}
+.anthonyDavie,
+.drcinnabar {
+  min-width: 109px;
+}
+.drcinnabar {
+  min-width: 90px;
+}
+.textInput20 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 90px;
+  z-index: 1;
+}
+.amoebiasis,
+.div11 {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 79px;
+}
+.amoebiasis {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 61px;
+}
+.davidPerry,
+.div15,
+.drfelix {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 10px;
+}
+.davidPerry,
+.drfelix {
+  min-width: 85px;
+}
+.drfelix {
+  min-width: 51px;
+}
+.textInput24 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 51px;
+  z-index: 1;
+}
+.div16,
+.jaundice {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 84px;
+}
+.jaundice {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 51px;
+}
+.button3 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 2.5px;
+  background: linear-gradient(45deg, #ff5370, #ff869a);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 5px 8px 6px;
+}
+.drberyl {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 56px;
+}
+.textInput29 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 56px;
+  z-index: 1;
+}
+.leptospirosis {
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.button4 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 2.5px;
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 6px 8px 5px;
+}
+.alanGilchrist,
+.div22,
+.drjoshep {
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 23px;
+}
+.alanGilchrist,
+.drjoshep {
+  min-width: 98px;
+}
+.drjoshep {
+  min-width: 74px;
+}
+.textInput34 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 74px;
+  z-index: 1;
+}
+.drjayesh,
+.hepatitis {
+  position: relative;
+  display: inline-block;
+}
+.hepatitis {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 49px;
+}
+.drjayesh {
+  line-height: 26px;
+  min-width: 73px;
+}
+.textInput38 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 73px;
+  z-index: 1;
+}
+.drsharma,
+.sueWoodger,
+.typhoid {
+  position: relative;
+  display: inline-block;
+}
+.typhoid {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 44px;
+}
+.drsharma,
+.sueWoodger {
+  line-height: 26px;
+  min-width: 101px;
+}
+.drsharma {
+  min-width: 80px;
+}
+.textInput44 {
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.8px 8px 10px;
+  min-width: 80px;
+  z-index: 1;
+}
+.malaria {
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 45px;
+}
+.table {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+.patientTableData,
+.tableContainer,
+.tableContainer1,
+.tableContainer2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tableContainer2 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 0.5px;
+}
+.patientTableData,
+.tableContainer,
+.tableContainer1 {
+  flex-direction: row;
+}
+.tableContainer1 {
+  flex: 1;
+  overflow: hidden;
+  padding: 0 0 14px;
+  flex-shrink: 0;
+}
+.patientTableData,
+.tableContainer {
+  align-self: stretch;
+  padding: 0 24px;
+  color: #212529;
+}
+.tableContainer {
+  box-shadow: -8px 12px 18px #dadee8;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #deebfd;
+  flex-direction: column;
+  padding: 0 0 13px;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #3a405b;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .textInput {
+    flex-wrap: wrap;
+  }
+}

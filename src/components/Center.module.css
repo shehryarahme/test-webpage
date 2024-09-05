@@ -1,0 +1,608 @@
+.newPatients {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 119px;
+}
+.operationLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.operationIconTop {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 37px;
+}
+.imageIcon {
+  width: 50px;
+  height: 45px;
+  position: relative;
+  object-fit: cover;
+}
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.8px 0 0;
+}
+.operationIconTopParent,
+.operationsIconLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.operationIconTopParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.operationsIconLayout {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 15px 0 10px;
+  box-sizing: border-box;
+  font-size: 23px;
+  color: #28a745;
+}
+.textInput1 {
+  height: 8px;
+  width: 164.9px;
+  position: relative;
+  background: linear-gradient(90deg, #834d9b, #d04ed6);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.slider,
+.sliderContainer,
+.textInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.slider {
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: #e9ecef;
+  overflow: hidden;
+  flex-direction: row;
+}
+.sliderContainer,
+.textInput {
+  flex: 1;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sliderContainer {
+  flex-direction: column;
+  padding: 0 0 7px;
+  gap: 18.9px;
+}
+.textInput {
+  box-shadow: -8px 12px 18px #dadee8;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #deebfd;
+  flex-direction: row;
+  padding: 9px 13px 13px 14px;
+  min-width: 257px;
+}
+.opdPatients {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 118px;
+}
+.imageIcon1 {
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.visitorIconBottom {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.8px 0 0;
+  box-sizing: border-box;
+}
+.textInput2 {
+  height: 8px;
+  width: 164.9px;
+  position: relative;
+  background: linear-gradient(-44deg, #fc5286, #fbaaa2);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.patientCardInputs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: 21px;
+  max-width: 100%;
+}
+.div,
+.todaysOperations {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.div {
+  line-height: 40px;
+  display: inline-block;
+  min-width: 29px;
+}
+.imageContainer,
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+.imageContainer {
+  width: 100px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.8px 0 0;
+  box-sizing: border-box;
+}
+.parent {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.textInput3 {
+  height: 8px;
+  width: 164.9px;
+  position: relative;
+  background: linear-gradient(90deg, #56ab2f, #a8e063);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textInputContainer4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+  gap: 18.8px;
+  max-width: 100%;
+}
+.div1,
+.visitors {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 69px;
+}
+.div1 {
+  line-height: 40px;
+  min-width: 62px;
+}
+.imageIcon3 {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  object-fit: cover;
+}
+.textInput4 {
+  height: 8px;
+  width: 164.9px;
+  position: relative;
+  background: linear-gradient(90deg, #f7971e, #ffd200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card,
+.textInputContainer7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+  gap: 17.6px;
+  max-width: 100%;
+}
+.card {
+  padding: 0 10px 20px;
+  gap: 20px;
+  min-width: 541px;
+}
+.hospitalSurvey {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 17px;
+  font-weight: 600;
+}
+.div2 {
+  width: 10px;
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+}
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+}
+.div3,
+.div4 {
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+  min-width: 11px;
+  flex-shrink: 0;
+}
+.div4 {
+  min-width: 10px;
+}
+.surveyIcons,
+.textInput5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.surveyIcons {
+  width: 44.2px;
+  justify-content: flex-start;
+  gap: 5.3px;
+  font-size: 12px;
+  color: #97a0b3;
+  font-family: "Alike Angular";
+}
+.textInput5 {
+  align-self: stretch;
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 13.6px 19px 13px 22px;
+  gap: 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #3a405b;
+  font-family: Poppins;
+}
+.svgjsrect1012Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.svgjstext1066 {
+  position: relative;
+  display: inline-block;
+  min-width: 13px;
+  z-index: 6;
+}
+.chartTitleLayout {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20.6px 16px 11.6px;
+  position: relative;
+  gap: 14.4px;
+}
+.chartSubTitle {
+  position: relative;
+  display: inline-block;
+  min-width: 13px;
+}
+.chartSubTitleWrapper {
+  flex-direction: row;
+  padding: 0 16px;
+}
+.chartContainer,
+.chartLayout,
+.chartSubTitleWrapper,
+.chartYAxisLabelWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chartContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 2.8px;
+}
+.chartLayout,
+.chartYAxisLabelWrapper {
+  flex-direction: row;
+}
+.chartLayout {
+  width: 148px;
+  padding: 0 24px 4.4px;
+  box-sizing: border-box;
+}
+.chartYAxisLabelWrapper {
+  padding: 0 40px 4.4px;
+}
+.textInputContainer9 {
+  position: absolute;
+  top: 1.5px;
+  left: 3.5px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.svgjsline1013Icon,
+.svgjsline1063Icon {
+  position: absolute;
+  top: 1.5px;
+  left: 3.5px;
+  width: 0;
+  height: 164.3px;
+}
+.svgjsline1063Icon {
+  top: 166.9px;
+  width: 701.1px;
+  height: 1px;
+}
+.sliderContainerIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.svgjsline1104Icon {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.chartXAxisTicks,
+.svgjsline1104Icon,
+.svgjsline1105Icon {
+  position: absolute;
+  width: 701.1px;
+  height: 0;
+}
+.svgjsline1105Icon {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.chartXAxisTicks {
+  top: 1.5px;
+  left: 3.5px;
+}
+.chartXAxisContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 708.1px;
+  height: 167.9px;
+}
+.chartXAxisLayout {
+  height: 172.8px;
+  width: 708.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -129.1px;
+  right: 7.4px;
+}
+.svgjstext1078 {
+  position: relative;
+  display: inline-block;
+  min-width: 7px;
+}
+.chartCanvasTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 14.4px;
+}
+.svgjstext1028 {
+  position: relative;
+  display: inline-block;
+  min-width: 20px;
+}
+.chartCanvasDataValues {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+}
+.chartCanvasData,
+.chartCanvasData1,
+.chartCanvasData2 {
+  position: relative;
+  display: inline-block;
+  min-width: 21px;
+}
+.chartCanvasData1,
+.chartCanvasData2 {
+  min-width: 19px;
+}
+.chartCanvasData2 {
+  min-width: 23px;
+}
+.chartCanvasDataValues2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px 0 0;
+}
+.svgjstext1046 {
+  position: relative;
+  display: inline-block;
+  min-width: 16px;
+}
+.chartCanvasDataValues3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+}
+.chartCanvasData3 {
+  width: 22px;
+}
+.chartCanvasData3,
+.svgjstext1052 {
+  position: relative;
+  display: inline-block;
+  min-width: 22px;
+}
+.chartCanvasDataLayout {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.chartCanvasContentLayout,
+.chartCanvasLayout,
+.chartXAxisLayoutParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.chartCanvasContentLayout {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 13px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+}
+.chartCanvasLayout,
+.chartXAxisLayoutParent {
+  flex: 1;
+}
+.chartCanvasLayout {
+  flex-direction: column;
+  gap: 9.4px;
+}
+.chartXAxisLayoutParent {
+  flex-direction: row;
+  position: relative;
+}
+.chartContentLayout {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 35px 0 40px;
+  box-sizing: border-box;
+}
+.card1,
+.chartContentLayout,
+.patientCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.card1 {
+  width: 812px;
+  box-shadow: -8px 12px 18px #dadee8;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #deebfd;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 57px;
+  gap: 10px;
+  min-width: 812px;
+  text-align: right;
+  font-size: 11px;
+  font-family: Nunito;
+}
+.patientCards {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 10.5px;
+  text-align: left;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Poppins;
+}
+@media screen and (max-width: 1525px) {
+  .card1 {
+    flex: 1;
+  }
+  .patientCards {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .card1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .patientCardInputs {
+    flex-wrap: wrap;
+  }
+  .card {
+    min-width: 100%;
+  }
+  .chartCanvasDataLayout {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .operationIconTop {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .operationIconTopParent {
+    flex-wrap: wrap;
+  }
+  .div,
+  .div1 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .textInput5 {
+    flex-wrap: wrap;
+  }
+}

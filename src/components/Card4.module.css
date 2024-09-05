@@ -1,0 +1,357 @@
+.imageIcon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 14px;
+  object-fit: cover;
+}
+.adminImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 67px;
+}
+.drKiranPatel {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 100px;
+}
+.textInput {
+  align-self: stretch;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 57px 0;
+  box-sizing: border-box;
+}
+.administrator {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 82px;
+}
+.adminDesignation {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 66px;
+  font-size: 11px;
+  color: #0a0a0a;
+}
+.adminDesignation,
+.adminInfo,
+.adminName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.adminInfo {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  gap: 5.5px;
+}
+.adminName {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 10px 0 9px;
+}
+.buttonContainerIcon {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoutButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 4.3px;
+}
+.dashboard {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 79px;
+}
+.menuDashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.menuMore {
+  width: 20.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Alike Angular";
+}
+.menuItems,
+.textInput1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.textInput1 {
+  align-self: stretch;
+  background-color: #f4f6f9;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 14px 13px 15px 18px;
+  gap: 6.8px;
+}
+.menuItems {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41px;
+}
+.email {
+  min-width: 38.2px;
+}
+.appointment,
+.calendar,
+.doctors,
+.email {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.calendar {
+  text-decoration: none;
+  color: inherit;
+  min-width: 66px;
+}
+.appointment,
+.doctors {
+  min-width: 92.2px;
+}
+.doctors {
+  min-width: 54.2px;
+}
+.otherStaff,
+.patients,
+.payments,
+.roomAllotment,
+.uiElements,
+.widget {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 75px;
+}
+.patients,
+.payments,
+.roomAllotment,
+.uiElements,
+.widget {
+  min-width: 57px;
+}
+.payments,
+.roomAllotment,
+.uiElements,
+.widget {
+  min-width: 113px;
+}
+.payments,
+.uiElements,
+.widget {
+  min-width: 70.1px;
+}
+.uiElements,
+.widget {
+  min-width: 50px;
+}
+.uiElements {
+  min-width: 81px;
+}
+.footerItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.emptyButton {
+  width: 6.2px;
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 6.2px;
+}
+.button {
+  align-self: stretch;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 60px;
+  background-color: #e91e63;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 11px 7px 12px;
+}
+.div1 {
+  position: relative;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 11px;
+}
+.button1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 60px;
+  background-color: #1ebdcc;
+  flex-direction: row;
+  padding: 3px 9px 7px 10px;
+}
+.button1,
+.footerListItems,
+.pageNavigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pageNavigation {
+  width: 30px;
+  flex-direction: column;
+  gap: 502px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.footerListItems {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 5.2px;
+}
+.materialElements {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 125px;
+}
+.footerList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.doubleChevronContainer,
+.footerDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.footerDetails {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.doubleChevronContainer {
+  align-self: stretch;
+  gap: 34px;
+}
+.doubleChevronContainer,
+.navigationFooter,
+.rightChevronContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rightChevronContainer {
+  align-self: stretch;
+  width: 20.2px;
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Alike Angular";
+}
+.navigationFooter {
+  gap: 11px;
+}
+.menuList,
+.navigationFooter,
+.navigationMenu {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.menuList {
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 1px;
+  gap: 6.8px;
+}
+.navigationMenu {
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 13px 0 18px;
+  color: #444;
+}
+.adminMenu,
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.adminMenu {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  gap: 14px;
+  text-align: left;
+  color: #4680ff;
+}
+.card {
+  height: 1494px;
+  width: 200px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -1483.7px;
+  left: 0.3px;
+  background-color: #fff;
+  align-items: flex-start;
+  padding: 50.3px 0 608px;
+  box-sizing: border-box;
+  gap: 25.7px;
+  z-index: 1;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-family: Poppins;
+}
